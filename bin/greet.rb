@@ -2,5 +2,7 @@
 require_relative '../lib/greeting.rb'
 
 puts "Hi! I'm HAL, what's your name?"
-gets.greeting
+
+gets.greet
+
 greeting(name)
