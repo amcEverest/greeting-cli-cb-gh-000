@@ -1,3 +1,7 @@
-def greeting(name)
-  puts " Hello #{name}\t. It's nice to meet you."
-end
+#!/ur/bin/env ruby
+require_relative '../lib/greeting.rb'
+
+puts "Hi! I'm HAL, what's your name?"
+gets.name
+name = gets.name
+greeting(name)
